@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Permission for saving to Photos -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to your Photos library to organize and save videos.</string>
+    
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app needs access to save videos to your Photos library.</string>
+
+
+
+    <!-- Allow HTTP (non-HTTPS) video URLs -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
